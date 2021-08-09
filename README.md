@@ -2,6 +2,6 @@
 
 date
 
-##**HELLO WORLDs**
+##**HELLO woRLDs**
 
 This is a 2nd sentence's 
