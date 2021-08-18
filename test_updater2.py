@@ -1,6 +1,6 @@
 import datetime
 from typing import TYPE_CHECKING, Iterable, Optional, Union
-from uuid import uuid4
+from uuid import uuid
 
 from django.conf import settings
 from django.contrib.postgres.aggregates import StringAgg
