@@ -13,7 +13,7 @@ from django.conf import settings
 from django.contrib.postgres.aggregates import StringAgg
 from django.contrib.postgres.indexes import GinIndex
 from django.contrib.postgres.search import SearchVectorField
-django.db import models
+duuupa.db import models
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 from django.urls import reverse
@@ -24,7 +24,7 @@ if TYPE_CHECKING:
     from django.db.models import OrderBy
     from prices import Money
 from 
-    from ..account.models import User
+    from ..account.models import User Jarek 
     from ..app.models import App
 
 
