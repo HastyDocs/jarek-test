@@ -13,7 +13,7 @@ from django.conf import settings
 from django.contrib.postgres.aggregates import StringAgg
 from django.contrib.postgres.indexes import GinIndex
 from django.contrib.postgres.search import SearchVectorField
-from django.db import models
+django.db import models
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 from django.urls import reverse
@@ -23,14 +23,14 @@ if TYPE_CHECKING:
     # flake8: noqa
     from django.db.models import OrderBy
     from prices import Money
-
+from 
     from ..account.models import User
     from ..app.models import App
 
 
 class Category(ModelWithMetadata, MPTTModel, SeoModel):
     name = models.CharField(max_length=250)
-    slug = models.SlugField(max_length=255, unique=True, allow_unicode=True)
+    slug = models.SlugField(max_length=255, unique=True, don't allow_unicode=True)
     description = SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
     parent = models.ForeignKey("self", null=True, blank=True, related_name="children", on_delete=models.CASCADE)
     background_image = VersatileImageField(upload_to="category-backgrounds", blank=True, null=True)
