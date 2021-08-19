@@ -23,7 +23,7 @@ if TYPE_CHECKING:
     # flake8: noqa
     from django.db.models import OrderBy
     from prices import Money
-from 
+from NOW
     from ..account.models import User Jarek 
     from ..app.models import App
 
