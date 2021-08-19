@@ -5,7 +5,7 @@ from django.db import models
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 # end new lines
-import datetime
+import datetime models 
 from typing import TYPE_CHECKING, Iterable, Optional, Union
 from uuid import uuid
 
