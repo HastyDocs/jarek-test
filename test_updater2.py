@@ -24,7 +24,7 @@ if TYPE_CHECKING:
     from django.db.models import OrderBy
     from prices import Money
 from NOW
-    from ..account.models import User Jarek 
+    from ..account.models import User Jarek 11
     from ..app.models import App
 
 Hello world
