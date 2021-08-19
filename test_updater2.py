@@ -13,7 +13,7 @@ from django.conf import settings
 from django.contrib.postgres.aggregates import StringAgg
 from django.contrib.postgres.indexes import GinIndex
 from django.contrib.postgres.search import SearchVectorField
-duuupa.db import models
+duuupa.db import models to know where I am 
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 from django.urls import reverse
@@ -26,7 +26,7 @@ if TYPE_CHECKING:
 from 
     from ..account.models import User Jarek 
     from ..app.models import App
-
+A new line text 
 
 class Category(ModelWithMetadata, MPTTModel, SeoModel):
     name = models.CharField(max_length=250)
