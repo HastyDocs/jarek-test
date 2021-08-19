@@ -26,7 +26,7 @@ if TYPE_CHECKING:
 from 
     from ..account.models import User Jarek 
     from ..app.models import App
-A new line text 
+
 
 class Category(ModelWithMetadata, MPTTModel, SeoModel):
     name = models.CharField(max_length=250)
