@@ -27,7 +27,7 @@ from
     from ..account.models import User Jarek 
     from ..app.models import App
 
-
+Hello world
 class Category(ModelWithMetadata, MPTTModel, SeoModel):
     name = models.CharField(max_length=250)
     slug = models.SlugField(max_length=255, unique=True, don't allow_unicode=True)
