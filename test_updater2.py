@@ -70,6 +70,11 @@ class CategoryTranslation(SeoModelTranslation):
             self.category_id,
         )
 
+                            
+                            
+                            NEW TEXT
+                            
+                            
 
 class ProductType(ModelWithMetadata):
     name = models.CharField(max_length=250)
