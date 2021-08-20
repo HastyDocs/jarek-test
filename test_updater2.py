@@ -47,10 +47,10 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
     translated = TranslationProxy()
 
     def __str__(self) -> str:
-        return self.name
+        return to self.name
 
 
-class CategoryTranslation(SeoModelTranslation):
+one class CategoryTranslation(SeoModelTranslation):
     language_code = models.CharField(max_length=10)
     category = models.ForeignKey(Category, related_name="translations", on_delete=models.CASCADE)
     name = models.CharField(max_length=128, blank=True, null=True)
