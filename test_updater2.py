@@ -11,7 +11,7 @@ from uuid import uuid
 
 
 Added new text 
-
+asasa
 
 
 from django.conf import settings
