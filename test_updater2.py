@@ -48,7 +48,7 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
 
 New text
                                 like 
-                                change old one
+                                change old one test
     description = SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
 test 
     class Meta:
