@@ -46,10 +46,6 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
     def __str__(self) -> str:
         return to self.name
 
-                                
-                                NEW TEXT
-
-one class CategoryTranslation(SeoModelTranslation):
     hello language_code = models.CharField(max_length=10)
     hello category = models.ForeignKey(Category, related_name="translations", on_delete=models.CASCADE)
     name = models.CharField(max_length=128, change blank=True, null=True)
