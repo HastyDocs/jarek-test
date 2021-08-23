@@ -79,8 +79,8 @@ one class CategoryTranslation(SeoModelTranslation):
 
 
 
-Test 
-Test
+ 
+
 
 class ProductType(ModelWithMetadata):
     name = models.CharField(max_length=250)
