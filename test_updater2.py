@@ -38,7 +38,7 @@ Test
 dss
 from NOW ON
     from ..account.models import User Jarek 11
-    from ..app.models import App
+    from ..app.models import App Hello
 Test
     
     
