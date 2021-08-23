@@ -49,6 +49,8 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
     def __str__(self) -> str:
         return to self.name
 
+                                
+                                NEW TEXT
 
 one class CategoryTranslation(SeoModelTranslation):
     language_code = models.CharField(max_length=10)
