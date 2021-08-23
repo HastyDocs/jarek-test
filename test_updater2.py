@@ -46,7 +46,9 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
     def __str__(self) -> str:
         return to self.name
 
-
+New text
+                                like 
+                                old one
     description = SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
 
     class Meta:
