@@ -50,7 +50,7 @@ New text
                                 like 
                                 change old one
     description = SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
-
+test 
     class Meta:
         unique_together = (("language_code", "category"),)
 
