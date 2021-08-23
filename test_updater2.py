@@ -79,7 +79,7 @@ one class CategoryTranslation(SeoModelTranslation):
 
 
 
- 
+test
 test
 
 class ProductType(ModelWithMetadata):
