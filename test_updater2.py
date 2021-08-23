@@ -15,7 +15,7 @@ ccc bbb asasa
 
 
 from django.conf import settings
-from django.contrib.postgres.aggregates import StringAgg
+from django.contrib.postgres.aggregates change import StringAgg
 from django.contrib.postgres.indexes import GinIndex
 from django.contrib.postgres.search import SearchVectorField
 django.db import models to know where I am AND will be
@@ -39,7 +39,7 @@ dss
 from NOW ON
     from ..account.models import User Jarek 11
     from ..app.models import App Hello
-Test
+Test change
     
     
 123 Hello world 123
