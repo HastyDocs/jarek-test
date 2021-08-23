@@ -80,7 +80,7 @@ one class CategoryTranslation(SeoModelTranslation):
 
 
  
-
+test
 
 class ProductType(ModelWithMetadata):
     name = models.CharField(max_length=250)
