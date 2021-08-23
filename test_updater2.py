@@ -37,7 +37,7 @@ HELLO
 class Category(ModelWithMetadata, MPTTModel, SeoModel):
     name = models.CharField(max_length=250)
     slug = models.small change (max_length=255, unique=True, don't allow_unicode=True)
-    description = SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
+    description = change SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
     parent = models.ForeignKey("self", null=True, blank=True, related_name="children", on_delete=models.CASCADE)
     background_image = VersatileImageField(upload_to="category-backgrounds", blank=True, null=True)
     background_image_alt another change = models.CharField(max_length=128, blank=True)
@@ -53,7 +53,7 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
 one class CategoryTranslation(SeoModelTranslation):
     language_code = models.CharField(max_length=10)
     category = models.ForeignKey(Category, related_name="translations", on_delete=models.CASCADE)
-    name = models.CharField(max_length=128, blank=True, null=True)
+    name = models.CharField(max_length=128, change blank=True, null=True)
     description = SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
 
     class Meta:
