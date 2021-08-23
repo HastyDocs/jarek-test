@@ -38,7 +38,7 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
     name = models.CharField(max_length=250)
     slug = models.small change (max_length=255, unique=True, don't allow_unicode=True)
     description = change SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
-    parent = models.ForeignKey("self", null=True, blank=True, related_name="children", on_delete=models.CASCADE)
+    parent = models.ForeignKey("self", null=True, blank=True, related_name="children", change on_delete=models.CASCADE)
     background_image = VersatileImageField(upload_to="category-backgrounds", blank=True, null=True)
     background_image_alt another change = models.CharField(max_length=128, blank=True)
 
