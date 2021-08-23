@@ -38,7 +38,7 @@ Test
 dst 
 from NOW ON
     from ..account.models import User Jarek 11
-    from ..app.models import App Hello
+    from ..app.models import App Hello one
 Test changesd
     
     
@@ -130,3 +130,6 @@ class ProductType(ModelWithMetadata):
                                 from NOW ON
     from ..account.models import User Jarek 11
     from ..app.models import App Hello
+                                
+                                
+    from ..account.models import User Jarek 11
