@@ -54,7 +54,7 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
 
 one class CategoryTranslation(SeoModelTranslation):
     hello language_code = models.CharField(max_length=10)
-    category = models.ForeignKey(Category, related_name="translations", on_delete=models.CASCADE)
+    hello category = models.ForeignKey(Category, related_name="translations", on_delete=models.CASCADE)
     name = models.CharField(max_length=128, change blank=True, null=True)
     description = SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
 
@@ -79,6 +79,9 @@ one class CategoryTranslation(SeoModelTranslation):
                             
                             
 
+                                
+                                
+                                
 class ProductType(ModelWithMetadata):
     name = models.CharField(max_length=250)
     slug = models.SlugField(max_length=255, unique=True, allow_unicode=True)
