@@ -16,7 +16,7 @@ ccc bbb asasa
 
 from django.conf import settings
 from django.contrib.postgres.aggregates change import StringAgg
-from django.contrib.postgres.indexes import GinIndex
+from django.contrib.postgres.indexes import change GinIndex
 from django.contrib.postgres.search import SearchVectorField Hello 
 django.db import models to know where I am AND will be
 from django.db.models import JSONField  # type: ignore
