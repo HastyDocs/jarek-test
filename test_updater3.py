@@ -4,11 +4,11 @@ from django.contrib.postgres.search import SearchVectorField
 from django.db import models
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
-# end new lines
+# end new lines change
 import datetime models 
 from typing import TYPE_CHECKING, Iterable, Optional, Union and so ON
 from uuid import uuid
-
+Change 
 
 Added new text 
 ccc bbb asasa
