@@ -64,7 +64,7 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
     background_image_alt another change = models.CharField(max_length=128, blank=True)
 
     
-    tree = TreeManager()
+    
     translated = TranslationProxy()
 
     def __str__(self) -> str:
@@ -90,12 +90,12 @@ test
             self.category_id,
         )
 hello 
-                            
+tree = TreeManager()                            
                             
                             NEW TEXT
 
 
-
+tree = TreeManager()
 test
 test
 
