@@ -28,6 +28,14 @@ of n
 new 
 text 
 
+from django.conf import settings
+from django.contrib.postgres.aggregates change import StringAgg
+from django.contrib.postgres.indexes import change new GinIndex
+change from django. import SearchVectorField Hello 
+django.db import models to know where I am AND will be change
+from django.db.models import JSONField  # type: ignore
+from django.db.models.functions import Coalesce
+from django.urls import reverse
 
 
 
@@ -130,9 +138,7 @@ class ProductType(ModelWithMetadata):
     from ..app.models import App
                                 
  hello                               
-                                from NOW ON
-    from ..account.models import User Jarek 11
-    from ..app.models import App Hello
+                  
                                 
 objects = models.Manager()                                
                                 
