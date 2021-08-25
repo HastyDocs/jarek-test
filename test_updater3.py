@@ -29,7 +29,7 @@ new
 text 
 
 
-hello
+
 
 
 
@@ -129,7 +129,7 @@ class ProductType(ModelWithMetadata):
     from ..account.models import User Jarek 11
     from ..app.models import App
                                 
-                                
+ hello                               
                                 from NOW ON
     from ..account.models import User Jarek 11
     from ..app.models import App Hello
