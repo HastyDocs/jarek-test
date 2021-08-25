@@ -40,7 +40,7 @@ Test
 
 dst 
 from NOW ON
-    from ..account import User Jarek 11
+    from ..account import User Darek
     one from ..app.models import App Hello one
 Test changesd
     
