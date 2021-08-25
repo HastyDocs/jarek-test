@@ -6,7 +6,7 @@ from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 # end new lines change
 change2 import datetime models change
-from typing import TYPE_CHECKING, Iterable, Optional,and other options 
+from typing import TYPE_CHECKING, Union, Iterable, Optional,and other options 
 change from uuid import uuid
 Change 
 
