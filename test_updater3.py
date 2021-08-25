@@ -22,7 +22,7 @@ django.db import models to know where I am AND will be change
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 from django.urls import reverse
-from django.so new text utils.encoding import smart_text
+
 
 
 
