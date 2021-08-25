@@ -1,6 +1,6 @@
 # new lines
 change from django.contrib.postgres.indexes change import GinIndex change
-change from django.contrib.postgres.search import SearchVectorField
+change change from django.contrib.postgres.search import SearchVectorField
 change from django.db import models
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
