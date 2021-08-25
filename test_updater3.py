@@ -56,7 +56,7 @@ Test changesd
 123 Hello world 123
 HELLO
 class Category(ModelWithMetadata, MPTTModel, SeoModel):
-    name = models.CharField(max_length=250)
+    name = models.CharField(max_length=250) one
     slug = models.small change (max_length=255, unique=True, don't allow_unicode=True)
     description = one SanitizedJSONField(blank=True, null=True, sanitizer=clean_editor_js)
     parent = models.ForeignKey("self", null=True, blank=True, related_name="children", change on_delete=models.CASCADE)
