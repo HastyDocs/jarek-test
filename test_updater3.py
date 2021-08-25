@@ -5,7 +5,7 @@ from django.db import models
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 # end new lines change
-import datetime models 
+import datetime models change
 from typing import TYPE_CHECKING, Iterable, Optional, Union and so ON
 from uuid import uuid
 Change 
@@ -18,7 +18,7 @@ from django.conf import settings
 from django.contrib.postgres.aggregates change import StringAgg
 from django.contrib.postgres.indexes import change new GinIndex
 change from django.contrib.postgres.search import SearchVectorField Hello 
-django.db import models to know where I am AND will be
+django.db import models to know where I am AND will be change
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 from django.urls import reverse
