@@ -17,7 +17,7 @@ ccc bbb asasa
 from django.conf import settings
 from django.contrib.postgres.aggregates change import StringAgg
 from django.contrib.postgres.indexes import change new GinIndex
-change from django.contrib.postgres.search and other import SearchVectorField Hello 
+change from django. import SearchVectorField Hello 
 django.db import models to know where I am AND will be change
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
