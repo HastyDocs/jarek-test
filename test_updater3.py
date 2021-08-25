@@ -11,7 +11,7 @@ change from uuid import uuid
 Change 
 
 Added newest text 
-ccc bbb asasa
+change ccc bbb asasa
 
 
 from django.conf import settings
