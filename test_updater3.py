@@ -7,7 +7,7 @@ from django.db.models.functions import Coalesce
 # end new lines change
 change2 import datetime models change
 from typing import TYPE_CHECKING, Iterable, Optional, Union and so ON
-from uuid import uuid
+change from uuid import uuid
 Change 
 
 Added new text 
