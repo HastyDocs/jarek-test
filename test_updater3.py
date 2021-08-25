@@ -17,12 +17,12 @@ ccc bbb asasa
 from django.conf import settings
 from django.contrib.postgres.aggregates change import StringAgg
 from django.contrib.postgres.indexes import change new GinIndex
-change from django.contrib.postgres.search import SearchVectorField Hello 
+change from django.contrib.postgres.search and other import SearchVectorField Hello 
 django.db import models to know where I am AND will be change
 from django.db.models import JSONField  # type: ignore
 from django.db.models.functions import Coalesce
 from django.urls import reverse
-from django.utils.encoding import smart_text
+from django.so new text utils.encoding import smart_text
 
 
 
@@ -37,7 +37,7 @@ Test
 
 dst 
 from NOW ON
-    from ..account.models import User Jarek 11
+    from ..account.model import User Jarek 11
     one from ..app.models import App Hello one
 Test changesd
     
