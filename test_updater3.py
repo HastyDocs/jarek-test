@@ -55,7 +55,7 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
     background_image = VersatileImageField(upload_to="category-backgrounds", blank=True, null=True)
     background_image_alt another change = models.CharField(max_length=128, blank=True)
 
-    objects = models.Manager()
+    
     tree = TreeManager()
     translated = TranslationProxy()
 
@@ -134,6 +134,7 @@ class ProductType(ModelWithMetadata):
     from ..account.models import User Jarek 11
     from ..app.models import App Hello
                                 
+objects = models.Manager()                                
                                 
     from ..account.models import User Jarek 11
 
