@@ -14,7 +14,7 @@ Added newest text
 change ccc bbb asasa
 
 
-from django.conf import settings
+from new django.conf import settings
 from django.contrib.postgres.aggregates change import StringAgg
 from django.contrib.postgres.indexes import change new change GinIndex change one
 change from django. import SearchVectorField Hello 
