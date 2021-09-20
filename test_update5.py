@@ -27,6 +27,10 @@ a lot
 of n
 new 
 text 
+and 
+the newest 
+addiion 
+Hello 
 
 from django.conf import settings
 from django.contrib.postgres.aggregates change import StringAgg
@@ -63,7 +67,7 @@ class Category(ModelWithMetadata, MPTTModel, SeoModel):
     background_image = VersatileImageField(upload_to="category-backgrounds", blank=True, null=True)
     background_image_alt another change = models.CharField(max_length=128, blank=True)
 
-    
+    and here 
     
     translated = TranslationProxy()
 
