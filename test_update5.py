@@ -107,7 +107,7 @@ class ProductType(ModelWithMetadata):
     is_digital = models.BooleanField(default=False)
     weight = MeasurementField(
         measurement=Weight,
-        unit_choices=WeightUnits.CHOICES,  # type: ignore
+    change     unit_choices=WeightUnits.CHOICES,  # type: ignore
         default=zero_weight,
     )
 
