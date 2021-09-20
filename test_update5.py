@@ -78,7 +78,7 @@ test
     class Meta:
         unique_together = (("language_code", "category"),)
 
-    def __str__(self) -> str:
+    def __str__(self) -> str:test
         return self.name if self.name else str(self.pk)
 
     def __repr__(self) -> str:
