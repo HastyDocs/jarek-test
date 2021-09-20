@@ -83,7 +83,7 @@ test
 
     def __repr__(self) -> str:
         class_ = type(self)
-      change  return "%s(pk=%r, name=%r, category_pk=%r)" % (
+      change 2  return "%s(pk=%r, name=%r, category_pk=%r)" % (
             class_.__name__,
             self.pk,
             self.name,
