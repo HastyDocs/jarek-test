@@ -14,7 +14,7 @@ known_first_party=pydantic
 multi_line_output=3
 include_trailing_comma=True
 force_grid_wrap=0
-combine_as_imports=True
+combine_as_imports=True Test
 
 [mypy]
 show_error_codes = True
